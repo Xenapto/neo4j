@@ -1,8 +1,12 @@
 # Welcome to Neo4j.rb
 
+## Note on legacy version
+
+This gem is identical to the official [neo4j gem](https://github.com/neo4jrb/neo4j) except that it has additional backports to enable it to work with Rails 3.2. You should use the canonical gem if you are using Rails 4+.
+
 ## Code Status
 
-[![Build Status](https://secure.travis-ci.org/neo4jrb/neo4j.png?branch=master)](http://travis-ci.org/neo4jrb/neo4j) [![Coverage Status](https://coveralls.io/repos/neo4jrb/neo4j/badge.png?branch=master)](https://coveralls.io/r/neo4jrb/neo4j?branch=master) [![Code Climate](https://codeclimate.com/github/neo4jrb/neo4j.png)](https://codeclimate.com/github/neo4jrb/neo4j) [![PullReview stats](https://www.pullreview.com/github/neo4jrb/neo4j/badges/master.svg?)](https://www.pullreview.com/github/neo4jrb/neo4j/reviews/master)
+[![Build Status](https://secure.travis-ci.org/xenapto/neo4j.png?branch=master)](http://travis-ci.org/xenapto/neo4j) [![Coverage Status](https://coveralls.io/repos/xenapto/neo4j/badge.png?branch=master)](https://coveralls.io/r/xenapto/neo4j?branch=master) [![Code Climate](https://codeclimate.com/github/xenapto/neo4j.png)](https://codeclimate.com/github/xenapto/neo4j) [![PullReview stats](https://www.pullreview.com/github/xenapto/neo4j/badges/master.svg?)](https://www.pullreview.com/github/xenapto/neo4j/reviews/master)
 
 ## Issues
 
@@ -14,7 +18,7 @@
 
 ### Documentation
 
-All new documentation will be done via our [readthedocs](http://neo4jrb.readthedocs.org) site, though some old documentation has yet to be moved from our [wiki](https://github.com/neo4jrb/neo4j/wiki) (also there is the [neo4j-core wiki](https://github.com/neo4jrb/neo4j-core/wiki))
+All new documentation will be done via our [readthedocs](http://neo4jrb.readthedocs.org) site, though some old documentation has yet to be moved from our [wiki](https://github.com/xenapto/neo4j/wiki) (also there is the [neo4j-core wiki](https://github.com/xenapto/neo4j-core/wiki))
 
 ### Contact Us
 
@@ -24,7 +28,7 @@ All new documentation will be done via our [readthedocs](http://neo4jrb.readthed
 
 # Introduction
 
-Neo4j.rb is an Active Model compliant Ruby/JRuby wrapper for [the Neo4j graph database](http://www.neo4j.org/). It uses the [neo4j-core](https://github.com/neo4jrb/neo4j-core) and [active_attr](https://github.com/cgriego/active_attr) gems.
+Neo4j.rb is an Active Model compliant Ruby/JRuby wrapper for [the Neo4j graph database](http://www.neo4j.org/). It uses the [neo4j-core](https://github.com/xenapto/neo4j-core) and [active_attr](https://github.com/cgriego/active_attr) gems.
 
 Neo4j is a transactional, open-source graph database.  A graph database manages data in a connected data structure, capable of  representing any kind of data in a very accessible way.  Information is stored in nodes and relationships connecting them, both of which can have arbitrary properties.  To learn more visit [What is a Graph Database?](http://neo4j.com/developer/graph-database/)
 
@@ -44,7 +48,7 @@ For a general overview see our website: http://neo4jrb.io/
 Winner of a 2014 Graphie for "Best Community Contribution" at Neo4j's [Graph Connect](http://graphconnect.com) conference!
 ![2014 Graphie](http://i.imgur.com/CkOoTTYm.jpg)
 
-Neo4j.rb v4.1.0 was released in January of 2015. Its changes are outlined [here](https://github.com/neo4jrb/neo4j/wiki/Neo4j.rb-v4-Introduction) and in the [announcement message](http://neo4jrb.io/blog/2015/01/09/neo4j-rb_v4-1_released.html). It will take a little time before all documentation is updated to reflect the new release but unless otherwise noted, all 3.X documentation is totally valid for v4.
+Neo4j.rb v4.1.0 was released in January of 2015. Its changes are outlined [here](https://github.com/xenapto/neo4j/wiki/Neo4j.rb-v4-Introduction) and in the [announcement message](http://neo4jrb.io/blog/2015/01/09/neo4j-rb_v4-1_released.html). It will take a little time before all documentation is updated to reflect the new release but unless otherwise noted, all 3.X documentation is totally valid for v4.
 
 ## Neo4j version support
 
@@ -71,12 +75,12 @@ Neo4j.rb v4.1.0 was released in January of 2015. Its changes are outlined [here]
 ## Modern (3.x/4.X) Documentation
 
 * [Website](http://neo4jrb.io/) (for an introduction)
-* [Wiki](https://github.com/neo4jrb/neo4j/wiki/Neo4j.rb-v4-Introduction)
+* [Wiki](https://github.com/xenapto/neo4j/wiki/Neo4j.rb-v4-Introduction)
 
 ## Legacy (2.x) Documentation
 
-* [README](https://github.com/neo4jrb/neo4j/tree/2.x)
-* [Wiki](https://github.com/neo4jrb/neo4j/wiki/Neo4j%3A%3ARails-Introduction)
+* [README](https://github.com/xenapto/neo4j/tree/2.x)
+* [Wiki](https://github.com/xenapto/neo4j/wiki/Neo4j%3A%3ARails-Introduction)
 
 ## Developers
 
