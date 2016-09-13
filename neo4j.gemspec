@@ -3,20 +3,19 @@ $LOAD_PATH.unshift lib unless $LOAD_PATH.include?(lib)
 
 require 'neo4j/version'
 
-
 Gem::Specification.new do |s|
-  s.name     = 'neo4j'
+  s.name     = 'neo4j_legacy'
   s.version  = Neo4j::VERSION
   s.required_ruby_version = '>= 1.9.3'
 
-  s.authors  = 'Andreas Ronge, Brian Underwood, Chris Grigg'
-  s.email    = 'andreas.ronge@gmail.com, brian@brian-underwood.codes, chris@subvertallmedia.com'
-  s.homepage = 'https://github.com/neo4jrb/neo4j/'
-  s.rubyforge_project = 'neo4j'
+  s.authors  = 'Andreas Ronge, Brian Underwood, Chris Grigg, Dominic Sayers'
+  s.email    = 'andreas.ronge@gmail.com, brian@brian-underwood.codes, chris@subvertallmedia.com, dominic@sayers.cc'
+  s.homepage = 'https://github.com/xenapto/neo4j/'
   s.summary = 'A graph database for Ruby'
   s.license = 'MIT'
   s.description = <<-EOF
 A Neo4j OGM (Object-Graph-Mapper) for use in Ruby on Rails and Rack frameworks heavily inspired by ActiveRecord.
+This fork enables this gem to be used in Rails 3.2 projects
   EOF
 
   s.require_path = 'lib'
